@@ -1,0 +1,189 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: happy
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - wonderful
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: unhappy
+  examples: |
+    - No
+    - Your answer is incorrect
+    - wrong
+    - wrong answer
+    - try again
+
+- intent: bot
+  examples: |
+    - who are you
+    - Tell me about yourself
+    - are you a bot
+    - are you a human
+    - am I talking to a bot
+
+- intent: programming
+  examples: |
+    - programming
+    - what is programming
+    - define programming
+    - how do you define programming
+    - Why we use programming
+
+- intent: popular_programming
+  examples: |
+    - list of popular programming
+    - example of programming language
+    - popular programming
+    - name some programming language
+    - write down name of some popular language
+
+- intent: variables
+  examples: |
+    - varialbe
+    - variable in programming
+    - what is variable
+    - define variable
+    - how do you define variable
+
+- intent: variable_example
+  examples: |
+    - give some example of variable
+    - example of variable
+    - more detail of variable
+    - variable example
+    - detail of variable
+
+- intent: data_types
+  examples: |
+    - data types
+    - data types in programming
+    - what is data types
+    - how do you define data types
+    - define data types
+
+- intent: data_type_example
+  examples: |
+    - example of data types
+    - list of data tyeps
+    - detail of data types
+    - more about data types
+    - data types example
+
+- intent: control_structures
+  examples: |
+    - control structure
+    - what is control structure
+    - control structures in programming
+    - define control structure
+    - how do you define control structure
+
+- intent: control_structure_example
+  examples: |
+    - control structure example
+    - example of control structure
+    - list of control structure
+    - different type of control structure
+
+- intent: functions
+  examples: |
+    - function
+    - function in programming
+    - What is a function in programming
+    - define function
+    - How do you define function
+
+- intent: object_oriented_programming
+  examples: |
+    - oop
+    - what is oop
+    - object-oriented programming
+    - What is object-oriented programming
+    - define oop
+    - How do you define a oop
+
+- intent: object
+  examples: |
+    - object
+    - object in OOP
+    - What is an object
+    - Define object in OOP
+    - Explain the concept of objects
+
+- intent: class
+  examples: |
+    - class
+    - class in OOP
+    - What is a class
+    - Define class in OOP
+    - Explain the concept of classes
+
+- intent: inheritance
+  examples: |
+    - inheritance
+    - What is inheritance
+    - What is inheritance in programming
+    - define inheritance
+    - how do you define inheritance
+    - inheritance in oop
+
+- intent: polymorphism
+  examples: |
+    - polymorphism
+    - What is polymorphism
+    - What is polymorphism in programming
+    - define polymorphism
+    - how do you define polymorphism
+    - polymorphism in oop
+
+- intent: encapsulation
+  examples: |
+    - encapsulation
+    - What is encapsulation
+    - encapsulation in programming
+    - define encapsulation
+    - How do you define encapsulation
+    - encapsulation in oop
+
+- intent: abstraction
+  examples: |
+    - abstraction 
+    - What is abstraction
+    - abstraction in programming
+    - define abstraction
+    - How do you define abstraction 
+    - abstraction in oop

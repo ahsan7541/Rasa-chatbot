@@ -1,0 +1,108 @@
+version: "3.1"
+
+stories:
+
+- story: happypath
+  steps:
+  - intent: greet
+  - action: utter_greet
+
+- story: happypath
+  steps:
+  - intent: happy
+  - action: utter_happy
+
+- story: sadpath
+  steps:
+  - intent: unhappy
+  - action: utter_default
+
+- story: sadpath
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: bot
+  steps:
+  - intent: bot
+  - action: utter_bot
+
+- story: programming1
+  steps:
+  - intent: programming
+  - action: utter_programming
+
+- story: programming2
+  steps:
+  - intent: popular_programming
+  - action: utter_popular_programming
+
+- story: programming3
+  steps:
+  - intent: variables
+  - action: utter_variables
+
+- story: programming4
+  steps:
+  - intent: variable_example
+  - action: utter_variable_example
+
+- story: programming5
+  steps:
+  - intent: data_types
+  - action: utter_data_types
+
+- story: programming6
+  steps:
+  - intent: data_type_example
+  - action: utter_data_type_example
+
+- story: programming7
+  steps:
+  - intent: control_structures
+  - action: utter_control_structures
+
+- story: programming8
+  steps:
+  - intent: control_structure_example
+  - action: utter_control_structure_example
+
+- story: programming9
+  steps:
+  - intent: functions
+  - action: utter_functions
+
+- story: programming10
+  steps:
+  - intent: object_oriented_programming
+  - action: utter_object_oriented_programming
+
+- story: programming11
+  steps:
+  - intent: object
+  - action: utter_object
+
+- story: programming12
+  steps:
+  - intent: class
+  - action: utter_class
+
+- story: programming13
+  steps:
+  - intent: inheritance
+  - action: utter_inheritance
+
+- story: programming14
+  steps:
+  - intent: polymorphism
+  - action: utter_polymorphism
+
+- story: programming15
+  steps:
+  - intent: encapsulation
+  - action: utter_encapsulation
+
+- story: programming16
+  steps:
+  - intent: abstraction
+  - action: utter_abstraction
