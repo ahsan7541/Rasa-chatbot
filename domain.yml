@@ -1,0 +1,116 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - happy
+  - unhappy
+  - bot
+  - defualt
+  - programming
+  - popular_programming
+  - variables
+  - variable_example
+  - data_types
+  - data_type_example
+  - control_structures
+  - control_structure_example
+  - functions
+  - object_oriented_programming
+  - object
+  - class
+  - inheritance
+  - polymorphism
+  - encapsulation
+  - abstraction
+
+responses:
+  utter_greet:
+  - text: "Hey! How can I help you"
+
+  utter_goodbye:
+  - text: "GooBye! have a nice day"
+
+  utter_default:
+  - text: "Sorry, I didn't understand that. Can you please rephrase your question?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_bot:
+  - text: "I am a bot, powered by Rasa."
+
+  utter_programming:
+  - text: "Programming is the process of creating computer programs or software by instructing a computer to perform specific tasks using a programming language. These instructions are written in a human-readable form and then translated into machine code that the computer can understand and execute."
+
+  utter_popular_programming:
+  - text: "Top Programming Languages:
+
+        Python: Easy to learn, versatile for web development, data analysis, and AI.
+        JavaScript: For web development and making websites interactive.
+        Java: Used for enterprise apps and Android development.
+        C#: For Windows apps and game development (Unity).
+        C++: Powerful for system-level tasks and games.
+        Ruby: Simple and productive, often used with Ruby on Rails for web apps.
+        Swift: For iOS and macOS app development.
+        Go (Golang): Efficient for web servers and system-level tasks.
+        Kotlin: Officially used for Android app development.
+        TypeScript: Adds static typing to JavaScript.
+              "
+
+  utter_variables:
+  - text: "A variable is a named storage location in a program where data can be stored and retrieved. It can hold different types of data such as integers, strings, or booleans."
+  
+  utter_variable_example:
+  - text: "Global Scope: Variables declared outside any functions and accessible from anywhere in the program. Local Scope: Variables declared inside a function and only accessible within that function."
+
+  utter_data_types:
+  - text: "In programming, data types define the type of data that can be stored in a variable or manipulated by an operation. Common data types include integers, floating point numbers, strings, and booleans."
+  
+  utter_data_type_example:
+  - text: "The choice of data type depends on the kind of data you want to work with and the range of values it can represent. Here are some common data types found in programming languages: Integer: Whole numbers without a fractional part, e.g., 42, -10. Float: Numbers with a fractional part, e.g., 3.14, -0.5. String: Sequence of characters, e.g., Hello, World!, John Doe. Boolean: Represents true or false, e.g., true, false."
+
+  utter_control_structures:
+  - text: "Control structures are programming constructs that determine the flow of execution in a program. Examples of control structures include if-else statements, for and while loops, and switch statements."
+  
+  utter_control_structure_example:
+  - text: "There are three main types of control structures:
+
+        1. Conditional Control Structures:
+        Conditional control structures allow you to execute different blocks of code based on specified conditions. The most common conditional structure is the if-else statement.
+        if statement: It checks a condition and executes a block of code if the condition is true.
+        if-else statement: It checks a condition and executes one block of code if the condition is true and another block if the condition is false.
+        if-elif-else statement: It checks multiple conditions one by one and executes the corresponding block of code based on the first condition that evaluates to true.
+        
+        2. Looping Control Structures
+        Looping control structures allow you to execute a block of code repeatedly until a condition becomes false. The most common types of loops are for and while loops.
+        for loop: It iterates over a sequence (e.g., list, string) and executes a block of code for each element in the sequence.
+        while loop: It repeatedly executes a block of code as long as a specified condition is true."
+
+  utter_functions:
+  - text: "In programming, a function is a block of code that performs a specific task. It can take arguments as input and return a value as output."
+
+  utter_object_oriented_programming:
+  - text: "Object-oriented programming (OOP) is a programming paradigm that uses objects to represent data and methods to operate on that data. OOP concepts include encapsulation, inheritance, and polymorphism."
+
+  utter_object:
+  - text: "An object is an instance of a class in object-oriented programming (OOP). It represents a real-world entity with its attributes and behaviors. Objects are the building blocks of OOP, and they encapsulate data and functionality."
+ 
+  utter_class:
+  - text: "A class is a blueprint or template in object-oriented programming (OOP). It defines the structure and behavior of objects. In other words, a class acts as a blueprint from which you can create multiple instances, known as objects. Classes allow you to organize and modularize your code, making it more maintainable and reusable."
+
+  utter_inheritance:
+  - text: "Inheritance is an OOP concept where a new class is created by inheriting properties and methods from an existing class. This allows for code reuse and simplifies program design."
+  
+  utter_polymorphism:
+  - text: "Polymorphism is an OOP concept where objects of different types can be treated as if they were of the same type. This allows for more flexible and modular code."
+  
+  utter_encapsulation:
+  - text: "Encapsulation is an OOP concept where data is hidden and protected from outside access. It is often used to ensure data integrity and maintainability of code."
+  
+  utter_abstraction:
+  - text: "Abstraction is an OOP concept where complex systems are simplified by abstracting away unnecessary details. It is often used to make code more reusable and maintainable."
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
