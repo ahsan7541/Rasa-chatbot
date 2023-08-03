@@ -1,4 +1,4 @@
-# rasa-chatbot-with-UI
+# rasa-chatbot
 ## Tools
 python, anaconda, tensorflow
 
