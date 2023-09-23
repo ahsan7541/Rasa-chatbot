@@ -1,0 +1,76 @@
+version: "3.1"
+nlu:
+- intent: bot
+  examples: |
+    - are you a bot
+- intent: control_structure_example
+  examples: |
+    - different type of control structure
+- intent: unhappy
+  examples: |
+    - wrong
+- intent: bot_instructor
+  examples: |
+    - tell me about your instructor
+- intent: programming
+  examples: |
+    - define programming
+- intent: popular_programming
+  examples: |
+    - list of popular programming
+- intent: variables
+  examples: |
+    - varialbe
+- intent: variable_example
+  examples: |
+    - give some example of variable
+- intent: data_types
+  examples: |
+    - define data types
+- intent: data_type_example
+  examples: |
+    - detail of data types
+- intent: control_structures
+  examples: |
+    - control structure
+- intent: functions
+  examples: |
+    - function
+- intent: object
+  examples: |
+    - object
+- intent: class
+  examples: |
+    - What is a class
+- intent: creator
+  examples: |
+    - who created you
+- intent: inheritance
+  examples: |
+    - What is inheritance in programming
+- intent: polymorphism
+  examples: |
+    - how do you define polymorphism
+    - polymorphism in oop
+- intent: encapsulation
+  examples: |
+    - define encapsulation
+- intent: abstraction
+  examples: |
+    - abstraction
+- intent: happy
+  examples: |
+    - perfect
+- intent: object_oriented_programming
+  examples: |
+    - define oop
+    - oop
+- intent: goodbye
+  examples: |
+    - good by
+    - see you later
+- intent: greet
+  examples: |
+    - good evening
+    - good afternoon
+    - goodmorning

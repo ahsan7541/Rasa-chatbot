@@ -1,0 +1,156 @@
+version: "3.1"
+nlu:
+- intent: bot
+  examples: |
+    - am I talking to a bot
+    - who are you
+    - are you a human
+- intent: control_structure_example
+  examples: |
+    - control structure example
+    - list of control structure
+    - example of control structure
+- intent: unhappy
+  examples: |
+    - Your answer is incorrect
+    - try again
+    - wrong answer
+    - No
+- intent: bot_instructor
+  examples: |
+    - instrucutor
+    - instructor name
+    - who is your instructor
+    - what is your instructor name
+- intent: programming
+  examples: |
+    - what is programming
+    - programming
+    - how do you define programming
+    - Why we use programming
+- intent: popular_programming
+  examples: |
+    - name some programming language
+    - example of programming language
+    - popular programming
+    - write down name of some popular language
+- intent: variables
+  examples: |
+    - what is variable
+    - define variable
+    - how do you define variable
+    - variable in programming
+- intent: variable_example
+  examples: |
+    - example of variable
+    - detail of variable
+    - more detail of variable
+    - variable example
+- intent: data_types
+  examples: |
+    - data types
+    - what is data types
+    - data types in programming
+    - how do you define data types
+- intent: data_type_example
+  examples: |
+    - example of data types
+    - more about data types
+    - list of data tyeps
+    - data types example
+- intent: control_structures
+  examples: |
+    - what is control structure
+    - define control structure
+    - how do you define control structure
+    - control structures in programming
+- intent: functions
+  examples: |
+    - What is a function in programming
+    - function in programming
+    - define function
+    - How do you define function
+- intent: object
+  examples: |
+    - Explain the concept of objects
+    - Define object in OOP
+    - object in OOP
+    - What is an object
+- intent: class
+  examples: |
+    - class
+    - Define class in OOP
+    - class in OOP
+    - Explain the concept of classes
+- intent: creator
+  examples: |
+    - creator name
+    - creator
+    - who made you
+    - what is your creator name
+    - who create you
+- intent: inheritance
+  examples: |
+    - define inheritance
+    - how do you define inheritance
+    - What is inheritance
+    - inheritance
+    - inheritance in oop
+- intent: polymorphism
+  examples: |
+    - What is polymorphism in programming
+    - define polymorphism
+    - What is polymorphism
+    - polymorphism
+- intent: encapsulation
+  examples: |
+    - encapsulation in oop
+    - How do you define encapsulation
+    - What is encapsulation
+    - encapsulation in programming
+    - encapsulation
+- intent: abstraction
+  examples: |
+    - define abstraction
+    - How do you define abstraction
+    - abstraction in programming
+    - abstraction in oop
+    - What is abstraction
+- intent: happy
+  examples: |
+    - so good
+    - wonderful
+    - amazing
+    - great
+    - so so perfect
+    - so perfect
+- intent: object_oriented_programming
+  examples: |
+    - object-oriented programming
+    - what is oop
+    - What is object-oriented programming
+    - tell me about oop
+    - How do you define a oop
+- intent: goodbye
+  examples: |
+    - bye bye
+    - see you around
+    - cu
+    - bye
+    - have a nice day
+    - cee you later
+    - goodbye
+    - thank you
+    - good night
+- intent: greet
+  examples: |
+    - let's go
+    - hi
+    - hey dude
+    - hello there
+    - hey there
+    - goodevening
+    - moin
+    - hey
+    - hello
+    - good morning
