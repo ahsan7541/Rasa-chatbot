@@ -29,16 +29,19 @@ final year project and I train this bot about programming concepts and following
 
 ### Important files
 For training : nlu.yml, storeis.yml, domain.yml <br>
-For UI       : credentials.yml, index.html
+For UI       : credentials.yml, index.html <br>
+Result       : result, graph
 
 ### Important commands
-conda deactivate <br>
-conda activate rasaenv <br>
+conda create -n <name> python=3.8 <br>
+conda activate <rasaenv> <br>
 pip install rasa <br>
 rasa init 
 
 rasa train <br>
 rasa shell <br>
+rasa visualize <br>
+rasa result <br>
 rasa run -m models --enable-api --cors "*"
 
 ## Result images
